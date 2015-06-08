@@ -12,7 +12,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, footer, header, twittertimeline, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -188,6 +188,7 @@ pre {
 }
 
 
+
 /* Header */
 
 header {
@@ -295,9 +296,17 @@ a.buttons:hover {
 /* Section - for main page content */
 
 section {
-  width:650px;
-  float:right;
-  padding-bottom:50px;
+  width:525px;
+  float:left;
+  padding-left: 260px
+  }
+   
+ /* Twitter Timeline */
+
+twittertimeline {
+  width:300px;
+  position:fixed;
+  	padding: 34px 2px 2px 20px;
 }
 
 
@@ -308,7 +317,7 @@ footer {
   float:left;
   position:fixed;
   bottom:10px;
-	padding-left: 50px;
+  padding-left: 50px;
 }
 
 @media print, screen and (max-width: 960px) {
